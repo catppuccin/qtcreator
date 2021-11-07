@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Catppuccin Mocha">
+  <style name="Text" foreground="#CDD6F4" background="#1E1E2E"/>
+  <style name="Link" foreground="#89DCEB" underlineStyle="SingleUnderline"/>
+  <style name="Selection" background="#585B70"/>
+  <style name="LineNumber" foreground="#45475A"/>
+  <style name="SearchResult" foreground="#94E2D5" bold="true"/>
+  <style name="SearchScope" foreground="#1E1E2E" background="#CDD6F4"/>
+  <style name="Parentheses" foreground="#FAB387" bold="true"/>
+  <style name="ParenthesesMismatch" foreground="#FAB387"/>
+  <style name="AutoComplete" foreground="#CDD6F4"/>
+  <style name="CurrentLine" foreground="#1E1E2E" background="#45475A"/>
+  <style name="CurrentLineNumber" foreground="#6C7086"/>
+  <style name="Occurrences" foreground="#1E1E2E" background="#CDD6F4"/>
+  <style name="Occurrences.Unused" foreground="#CDD6F4"/>
+  <style name="Occurrences.Rename" foreground="#1E1E2E" background="#CDD6F4"/>
+  <style name="Number" foreground="#FAB387"/>
+  <style name="String" foreground="#A6E3A1"/>
+  <style name="Type" foreground="#F9E2AF"/>
+  <style name="Local" foreground="#CDD6F4"/>
+  <style name="Parameter"/>
+  <style name="Global" foreground="#EBA0AC"/>
+  <style name="Field" foreground="#F5E0DC"/>
+  <style name="Static" foreground="#94E2D5"/>
+  <style name="VirtualMethod" foreground="#89B4FA" italic="true"/>
+  <style name="Function" foreground="#89B4FA"/>
+  <style name="Keyword" foreground="#CBA6F7"/>
+  <style name="PrimitiveType" foreground="#F9E2AF" italic="true"/>
+  <style name="Operator" foreground="#89DCEB"/>
+  <style name="Overloaded Operator" foreground="#89DCEB"/>
+  <style name="Punctuation"/>
+  <style name="Preprocessor" foreground="#89DCEB"/>
+  <style name="Label" foreground="#89DCEB"/>
+  <style name="Comment" foreground="#585B70" italic="true"/>
+  <style name="Doxygen.Comment" foreground="#585B70"/>
+  <style name="Doxygen.Tag" foreground="#585B70" bold="true"/>
+  <style name="VisualWhitespace" foreground="#585B70"/>
+  <style name="QmlLocalId" foreground="#A6E3A1" italic="true"/>
+  <style name="QmlExternalId" foreground="#FAB387" italic="true"/>
+  <style name="QmlTypeId" foreground="#89DCEB"/>
+  <style name="QmlRootObjectProperty" foreground="#A6E3A1" italic="true"/>
+  <style name="QmlScopeObjectProperty" foreground="#A6E3A1" italic="true"/>
+  <style name="QmlExternalObjectProperty" foreground="#FAB387" italic="true"/>
+  <style name="JsScopeVar" foreground="#89B4FA" italic="true"/>
+  <style name="JsImportVar" foreground="#CDD6F4" italic="true"/>
+  <style name="JsGlobalVar" foreground="#F38BA8" italic="true"/>
+  <style name="QmlStateName" foreground="#A6E3A1" italic="true"/>
+  <style name="Binding" foreground="#F5C2E7"/>
+  <style name="DisabledCode" foreground="#6C7086"/>
+  <style name="AddedLine" foreground="#A6E3A1"/>
+  <style name="RemovedLine" foreground="#F38BA8"/>
+  <style name="DiffFile" foreground="#89DCEB"/>
+  <style name="DiffLocation" foreground="#FAB387"/>
+  <style name="DiffFileLine" foreground="#1E1E2E" background="#F9E2AF"/>
+  <style name="DiffContextLine" foreground="#1E1E2E" background="#89DCEB"/>
+  <style name="DiffSourceLine" background="#734A5F"/>
+  <style name="DiffSourceChar" background="#493447"/>
+  <style name="DiffDestLine" background="#546D5C"/>
+  <style name="DiffDestChar" background="#394545"/>
+  <style name="LogChangeLine" foreground="#F38BA8"/>
+  <style name="Warning" underlineColor="#FAB387" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#FAB387" underlineStyle="DotLine"/>
+  <style name="Error" underlineColor="#F38BA8" underlineStyle="SingleUnderline"/>
+  <style name="ErrorContext" underlineColor="#F38BA8" underlineStyle="DotLine"/>
+  <style name="Declaration" bold="true"/>
+  <style name="FunctionDefinition"/>
+  <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember" foreground="#FAB387"/>
+</style-scheme>
+
