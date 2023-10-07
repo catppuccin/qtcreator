@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="Catppuccin Frappe">
   <style name="Text" foreground="#C6D0F5" background="#303446"/>
-  <style name="Link" foreground="#99D1DB" underlineStyle="SingleUnderline"/>
+  <style name="Link" foreground="#8CAAEE" underlineStyle="SingleUnderline"/>
   <style name="Selection" background="#626880"/>
   <style name="LineNumber" foreground="#51576D"/>
   <style name="SearchResult" foreground="#81C8BE" bold="true"/>
@@ -9,7 +9,7 @@
   <style name="Parentheses" foreground="#EF9F76" bold="true"/>
   <style name="ParenthesesMismatch" foreground="#EF9F76"/>
   <style name="AutoComplete" foreground="#C6D0F5"/>
-  <style name="CurrentLine" foreground="#303446" background="#51576D"/>
+  <style name="CurrentLine" foreground="#303446" background="#414559"/>
   <style name="CurrentLineNumber" foreground="#737994"/>
   <style name="Occurrences" foreground="#303446" background="#C6D0F5"/>
   <style name="Occurrences.Unused" foreground="#C6D0F5"/>
@@ -18,34 +18,34 @@
   <style name="String" foreground="#A6D189"/>
   <style name="Type" foreground="#E5C890"/>
   <style name="Local" foreground="#C6D0F5"/>
-  <style name="Parameter"/>
-  <style name="Global" foreground="#EA999C"/>
-  <style name="Field" foreground="#F2D5CF"/>
-  <style name="Static" foreground="#81C8BE"/>
+  <style name="Parameter" foreground="$EA999C" />
+  <style name="Global" foreground="#C6D0F5"/>
+  <style name="Field" foreground="#C6D0F5"/>
+  <style name="Static" foreground="#C6D0F5"/>
   <style name="VirtualMethod" foreground="#8CAAEE" italic="true"/>
   <style name="Function" foreground="#8CAAEE"/>
   <style name="Keyword" foreground="#CA9EE6"/>
   <style name="PrimitiveType" foreground="#E5C890" italic="true"/>
   <style name="Operator" foreground="#99D1DB"/>
   <style name="Overloaded Operator" foreground="#99D1DB"/>
-  <style name="Punctuation"/>
-  <style name="Preprocessor" foreground="#99D1DB"/>
-  <style name="Label" foreground="#99D1DB"/>
-  <style name="Comment" foreground="#626880" italic="true"/>
-  <style name="Doxygen.Comment" foreground="#626880"/>
+  <style name="Punctuation" foreground="$81C8BE" />
+  <style name="Preprocessor" foreground="#81C8BE"/>
+  <style name="Label" foreground="#81C8BE"/>
+  <style name="Comment" foreground="#737994" italic="true"/>
+  <style name="Doxygen.Comment" foreground="#737994"/>
   <style name="Doxygen.Tag" foreground="#626880" bold="true"/>
   <style name="VisualWhitespace" foreground="#626880"/>
-  <style name="QmlLocalId" foreground="#A6D189" italic="true"/>
+  <style name="QmlLocalId" foreground="#BABBF1" italic="true"/>
   <style name="QmlExternalId" foreground="#EF9F76" italic="true"/>
   <style name="QmlTypeId" foreground="#99D1DB"/>
-  <style name="QmlRootObjectProperty" foreground="#A6D189" italic="true"/>
-  <style name="QmlScopeObjectProperty" foreground="#A6D189" italic="true"/>
+  <style name="QmlRootObjectProperty" foreground="#BABBF1" italic="true"/>
+  <style name="QmlScopeObjectProperty" foreground="#BABBF1" italic="true"/>
   <style name="QmlExternalObjectProperty" foreground="#EF9F76" italic="true"/>
   <style name="JsScopeVar" foreground="#8CAAEE" italic="true"/>
   <style name="JsImportVar" foreground="#C6D0F5" italic="true"/>
   <style name="JsGlobalVar" foreground="#E78284" italic="true"/>
   <style name="QmlStateName" foreground="#A6D189" italic="true"/>
-  <style name="Binding" foreground="#F4B8E4"/>
+  <style name="Binding" foreground="#8CAAEE"/>
   <style name="DisabledCode" foreground="#737994"/>
   <style name="AddedLine" foreground="#A6D189"/>
   <style name="RemovedLine" foreground="#E78284"/>

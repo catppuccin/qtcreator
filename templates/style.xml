@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="Catppuccin {{titlecase flavour}}">
   <style name="Text" foreground="#{{text}}" background="#{{base}}"/>
-  <style name="Link" foreground="#{{sky}}" underlineStyle="SingleUnderline"/>
+  <style name="Link" foreground="#{{blue}}" underlineStyle="SingleUnderline"/>
   <style name="Selection" background="#{{surface2}}"/>
   <style name="LineNumber" foreground="#{{surface1}}"/>
   <style name="SearchResult" foreground="#{{teal}}" bold="true"/>
@@ -18,34 +18,34 @@
   <style name="String" foreground="#{{green}}"/>
   <style name="Type" foreground="#{{yellow}}"/>
   <style name="Local" foreground="#{{text}}"/>
-  <style name="Parameter"/>
-  <style name="Global" foreground="#{{maroon}}"/>
-  <style name="Field" foreground="#{{rosewater}}"/>
-  <style name="Static" foreground="#{{teal}}"/>
+  <style name="Parameter" foreground="${{maroon}}" />
+  <style name="Global" foreground="#{{text}}"/>
+  <style name="Field" foreground="#{{text}}"/>
+  <style name="Static" foreground="#{{text}}"/>
   <style name="VirtualMethod" foreground="#{{blue}}" italic="true"/>
   <style name="Function" foreground="#{{blue}}"/>
   <style name="Keyword" foreground="#{{mauve}}"/>
   <style name="PrimitiveType" foreground="#{{yellow}}" italic="true"/>
   <style name="Operator" foreground="#{{sky}}"/>
   <style name="Overloaded Operator" foreground="#{{sky}}"/>
-  <style name="Punctuation"/>
-  <style name="Preprocessor" foreground="#{{sky}}"/>
-  <style name="Label" foreground="#{{sky}}"/>
-  <style name="Comment" foreground="#{{surface2}}" italic="true"/>
-  <style name="Doxygen.Comment" foreground="#{{surface2}}"/>
+  <style name="Punctuation" foreground="${{teal}}" />
+  <style name="Preprocessor" foreground="#{{teal}}"/>
+  <style name="Label" foreground="#{{teal}}"/>
+  <style name="Comment" foreground="#{{overlay0}}" italic="true"/>
+  <style name="Doxygen.Comment" foreground="#{{overlay0}}"/>
   <style name="Doxygen.Tag" foreground="#{{surface2}}" bold="true"/>
   <style name="VisualWhitespace" foreground="#{{surface2}}"/>
-  <style name="QmlLocalId" foreground="#{{green}}" italic="true"/>
+  <style name="QmlLocalId" foreground="#{{lavender}}" italic="true"/>
   <style name="QmlExternalId" foreground="#{{peach}}" italic="true"/>
   <style name="QmlTypeId" foreground="#{{sky}}"/>
-  <style name="QmlRootObjectProperty" foreground="#{{green}}" italic="true"/>
-  <style name="QmlScopeObjectProperty" foreground="#{{green}}" italic="true"/>
+  <style name="QmlRootObjectProperty" foreground="#{{lavender}}" italic="true"/>
+  <style name="QmlScopeObjectProperty" foreground="#{{lavender}}" italic="true"/>
   <style name="QmlExternalObjectProperty" foreground="#{{peach}}" italic="true"/>
   <style name="JsScopeVar" foreground="#{{blue}}" italic="true"/>
   <style name="JsImportVar" foreground="#{{text}}" italic="true"/>
   <style name="JsGlobalVar" foreground="#{{red}}" italic="true"/>
   <style name="QmlStateName" foreground="#{{green}}" italic="true"/>
-  <style name="Binding" foreground="#{{pink}}"/>
+  <style name="Binding" foreground="#{{blue}}"/>
   <style name="DisabledCode" foreground="#{{overlay0}}"/>
   <style name="AddedLine" foreground="#{{green}}"/>
   <style name="RemovedLine" foreground="#{{red}}"/>
