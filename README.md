@@ -57,7 +57,7 @@ Based on [Dracula](https://github.com/dracula/qtcreator/) and
     2. Select the "Environment" tab. Change the Theme dropdown to your
     flavour of choice.
     3. Press OK. Qt Creator will prompt you to restart, press Restart Now.
-    4. *Usually* Qt Creator will automatically select the matching text editor theme for you. If not continue to #6.
+    4. *Usually* Qt Creator will automatically select the matching text editor theme for you. If not continue to the next steps.
     5. Go to Edit > Preferences again.
     6. Select the "Text Editor" tab. Change the Color Scheme dropdown to your
     flavour of choice.
