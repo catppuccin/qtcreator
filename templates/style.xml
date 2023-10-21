@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="Catppuccin {{titlecase flavour}}">
-  <style name="Text" foreground="#{{text}}" background="#{{base}}"/>
-  <style name="Link" foreground="#{{blue}}" underlineStyle="SingleUnderline"/>
-  <style name="Selection" background="#{{surface2}}"/>
-  <style name="LineNumber" foreground="#{{surface1}}"/>
-  <style name="SearchResult" foreground="#{{teal}}" bold="true"/>
-  <style name="SearchScope" foreground="#{{base}}" background="#{{text}}"/>
-  <style name="Parentheses" foreground="#{{peach}}" bold="true"/>
-  <style name="ParenthesesMismatch" foreground="#{{peach}}"/>
-  <style name="AutoComplete" foreground="#{{text}}"/>
-  <style name="CurrentLine" foreground="#{{base}}" background="#{{surface0}}"/>
-  <style name="CurrentLineNumber" foreground="#{{overlay0}}"/>
-  <style name="Occurrences" foreground="#{{base}}" background="#{{text}}"/>
-  <style name="Occurrences.Unused" foreground="#{{text}}"/>
-  <style name="Occurrences.Rename" foreground="#{{base}}" background="#{{text}}"/>
-  <style name="Number" foreground="#{{peach}}"/>
-  <style name="String" foreground="#{{green}}"/>
-  <style name="Type" foreground="#{{yellow}}"/>
-  <style name="Local" foreground="#{{text}}"/>
-  <style name="Parameter" foreground="${{maroon}}" />
-  <style name="Global" foreground="#{{text}}"/>
-  <style name="Field" foreground="#{{text}}"/>
-  <style name="Static" foreground="#{{text}}"/>
-  <style name="VirtualMethod" foreground="#{{blue}}" italic="true"/>
-  <style name="Function" foreground="#{{blue}}"/>
-  <style name="Keyword" foreground="#{{mauve}}"/>
-  <style name="PrimitiveType" foreground="#{{yellow}}" italic="true"/>
-  <style name="Operator" foreground="#{{sky}}"/>
-  <style name="Overloaded Operator" foreground="#{{sky}}"/>
-  <style name="Punctuation" foreground="${{teal}}" />
-  <style name="Preprocessor" foreground="#{{teal}}"/>
-  <style name="Label" foreground="#{{teal}}"/>
-  <style name="Comment" foreground="#{{overlay0}}" italic="true"/>
-  <style name="Doxygen.Comment" foreground="#{{overlay0}}"/>
-  <style name="Doxygen.Tag" foreground="#{{surface2}}" bold="true"/>
-  <style name="VisualWhitespace" foreground="#{{surface2}}"/>
-  <style name="QmlLocalId" foreground="#{{lavender}}" italic="true"/>
-  <style name="QmlExternalId" foreground="#{{peach}}" italic="true"/>
-  <style name="QmlTypeId" foreground="#{{sky}}"/>
-  <style name="QmlRootObjectProperty" foreground="#{{lavender}}" italic="true"/>
-  <style name="QmlScopeObjectProperty" foreground="#{{lavender}}" italic="true"/>
-  <style name="QmlExternalObjectProperty" foreground="#{{peach}}" italic="true"/>
-  <style name="JsScopeVar" foreground="#{{blue}}" italic="true"/>
-  <style name="JsImportVar" foreground="#{{text}}" italic="true"/>
-  <style name="JsGlobalVar" foreground="#{{red}}" italic="true"/>
-  <style name="QmlStateName" foreground="#{{green}}" italic="true"/>
-  <style name="Binding" foreground="#{{blue}}"/>
-  <style name="DisabledCode" foreground="#{{overlay0}}"/>
-  <style name="AddedLine" foreground="#{{green}}"/>
-  <style name="RemovedLine" foreground="#{{red}}"/>
-  <style name="DiffFile" foreground="#{{sky}}"/>
-  <style name="DiffLocation" foreground="#{{peach}}"/>
-  <style name="DiffFileLine" foreground="#{{base}}" background="#{{yellow}}"/>
-  <style name="DiffContextLine" foreground="#{{base}}" background="#{{sky}}"/>
-  <style name="DiffSourceLine" background="#{{red2}}"/>
-  <style name="DiffSourceChar" background="#{{red1}}"/>
-  <style name="DiffDestLine" background="#{{green2}}"/>
-  <style name="DiffDestChar" background="#{{green1}}"/>
-  <style name="LogChangeLine" foreground="#{{red}}"/>
-  <style name="Warning" underlineColor="#{{peach}}" underlineStyle="SingleUnderline"/>
-  <style name="WarningContext" underlineColor="#{{peach}}" underlineStyle="DotLine"/>
-  <style name="Error" underlineColor="#{{red}}" underlineStyle="SingleUnderline"/>
-  <style name="ErrorContext" underlineColor="#{{red}}" underlineStyle="DotLine"/>
+<style-scheme version="1.0" name="Catppuccin {{titlecase flavor}}">
+  <style name="Text" foreground="#{{text.hex}}" background="#{{base.hex}}"/>
+  <style name="Link" foreground="#{{blue.hex}}" underlineStyle="SingleUnderline"/>
+  <style name="Selection" background="#{{surface2.hex}}"/>
+  <style name="LineNumber" foreground="#{{surface1.hex}}"/>
+  <style name="SearchResult" foreground="#{{teal.hex}}" bold="true"/>
+  <style name="SearchScope" foreground="#{{base.hex}}" background="#{{text.hex}}"/>
+  <style name="Parentheses" foreground="#{{peach.hex}}" bold="true"/>
+  <style name="ParenthesesMismatch" foreground="#{{peach.hex}}"/>
+  <style name="AutoComplete" foreground="#{{text.hex}}"/>
+  <style name="CurrentLine" foreground="#{{base.hex}}" background="#{{surface0.hex}}"/>
+  <style name="CurrentLineNumber" foreground="#{{overlay0.hex}}"/>
+  <style name="Occurrences" foreground="#{{base.hex}}" background="#{{text.hex}}"/>
+  <style name="Occurrences.Unused" foreground="#{{text.hex}}"/>
+  <style name="Occurrences.Rename" foreground="#{{base.hex}}" background="#{{text.hex}}"/>
+  <style name="Number" foreground="#{{peach.hex}}"/>
+  <style name="String" foreground="#{{green.hex}}"/>
+  <style name="Type" foreground="#{{yellow.hex}}"/>
+  <style name="Local" foreground="#{{text.hex}}"/>
+  <style name="Parameter" foreground="${{maroon.hex}}" />
+  <style name="Global" foreground="#{{text.hex}}"/>
+  <style name="Field" foreground="#{{text.hex}}"/>
+  <style name="Static" foreground="#{{text.hex}}"/>
+  <style name="VirtualMethod" foreground="#{{blue.hex}}" italic="true"/>
+  <style name="Function" foreground="#{{blue.hex}}"/>
+  <style name="Keyword" foreground="#{{mauve.hex}}"/>
+  <style name="PrimitiveType" foreground="#{{yellow.hex}}" italic="true"/>
+  <style name="Operator" foreground="#{{sky.hex}}"/>
+  <style name="Overloaded Operator" foreground="#{{sky.hex}}"/>
+  <style name="Punctuation" foreground="${{teal.hex}}" />
+  <style name="Preprocessor" foreground="#{{teal.hex}}"/>
+  <style name="Label" foreground="#{{teal.hex}}"/>
+  <style name="Comment" foreground="#{{overlay0.hex}}" italic="true"/>
+  <style name="Doxygen.Comment" foreground="#{{overlay0.hex}}"/>
+  <style name="Doxygen.Tag" foreground="#{{surface2.hex}}" bold="true"/>
+  <style name="VisualWhitespace" foreground="#{{surface2.hex}}"/>
+  <style name="QmlLocalId" foreground="#{{lavender.hex}}" italic="true"/>
+  <style name="QmlExternalId" foreground="#{{peach.hex}}" italic="true"/>
+  <style name="QmlTypeId" foreground="#{{sky.hex}}"/>
+  <style name="QmlRootObjectProperty" foreground="#{{lavender.hex}}" italic="true"/>
+  <style name="QmlScopeObjectProperty" foreground="#{{lavender.hex}}" italic="true"/>
+  <style name="QmlExternalObjectProperty" foreground="#{{peach.hex}}" italic="true"/>
+  <style name="JsScopeVar" foreground="#{{blue.hex}}" italic="true"/>
+  <style name="JsImportVar" foreground="#{{text.hex}}" italic="true"/>
+  <style name="JsGlobalVar" foreground="#{{red.hex}}" italic="true"/>
+  <style name="QmlStateName" foreground="#{{green.hex}}" italic="true"/>
+  <style name="Binding" foreground="#{{blue.hex}}"/>
+  <style name="DisabledCode" foreground="#{{overlay0.hex}}"/>
+  <style name="AddedLine" foreground="#{{green.hex}}"/>
+  <style name="RemovedLine" foreground="#{{red.hex}}"/>
+  <style name="DiffFile" foreground="#{{sky.hex}}"/>
+  <style name="DiffLocation" foreground="#{{peach.hex}}"/>
+  <style name="DiffFileLine" foreground="#{{base.hex}}" background="#{{yellow.hex}}"/>
+  <style name="DiffContextLine" foreground="#{{base.hex}}" background="#{{sky.hex}}"/>
+  <style name="DiffSourceLine" background="#{{mix red.hex base.hex 0.4}}"/>
+  <style name="DiffSourceChar" background="#{{mix red.hex base.hex 0.2}}"/>
+  <style name="DiffDestLine" background="#{{mix green.hex base.hex 0.4}}"/>
+  <style name="DiffDestChar" background="#{{mix green.hex base.hex 0.2}}"/>
+  <style name="LogChangeLine" foreground="#{{red.hex}}"/>
+  <style name="Warning" underlineColor="#{{peach.hex}}" underlineStyle="SingleUnderline"/>
+  <style name="WarningContext" underlineColor="#{{peach.hex}}" underlineStyle="DotLine"/>
+  <style name="Error" underlineColor="#{{red.hex}}" underlineStyle="SingleUnderline"/>
+  <style name="ErrorContext" underlineColor="#{{red.hex}}" underlineStyle="DotLine"/>
   <style name="Declaration" bold="true"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" italic="true"/>
-  <style name="StaticMember" foreground="#{{peach}}"/>
+  <style name="StaticMember" foreground="#{{peach.hex}}"/>
 </style-scheme>

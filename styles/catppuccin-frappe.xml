@@ -56,7 +56,7 @@
   <style name="DiffSourceLine" background="#79535F"/>
   <style name="DiffSourceChar" background="#544452"/>
   <style name="DiffDestLine" background="#5F7361"/>
-  <style name="DiffDestChar" background="#475453"/>
+  <style name="DiffDestChar" background="#485453"/>
   <style name="LogChangeLine" foreground="#E78284"/>
   <style name="Warning" underlineColor="#EF9F76" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#EF9F76" underlineStyle="DotLine"/>

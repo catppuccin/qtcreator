@@ -54,9 +54,9 @@
   <style name="DiffFileLine" foreground="#EFF1F5" background="#DF8E1D"/>
   <style name="DiffContextLine" foreground="#EFF1F5" background="#04A5E5"/>
   <style name="DiffSourceLine" background="#E397AA"/>
-  <style name="DiffSourceChar" background="#E9C4CF"/>
-  <style name="DiffDestLine" background="#A9D1A4"/>
-  <style name="DiffDestChar" background="#CCE1CD"/>
+  <style name="DiffSourceChar" background="#E9C5D0"/>
+  <style name="DiffDestLine" background="#AAD1A5"/>
+  <style name="DiffDestChar" background="#CDE1CE"/>
   <style name="LogChangeLine" foreground="#D20F39"/>
   <style name="Warning" underlineColor="#FE640B" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#FE640B" underlineStyle="DotLine"/>

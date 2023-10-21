@@ -1,30 +1,30 @@
 [General]
-ThemeName=Catppuccin {{titlecase flavour}}
+ThemeName=Catppuccin {{titlecase flavor}}
 PreferredStyles=Fusion
-DefaultTextEditorColorScheme=catppuccin-{{flavour}}.xml
+DefaultTextEditorColorScheme=catppuccin-{{flavor}}.xml
 
 [Palette]
-shadowBackground=ff{{crust}}
-text=ff{{text}}
-textDisabled=99{{text}}
-textHighlighted=ff{{text}}
-toolBarItem=ff{{text}}
-toolBarItemDisabled=99{{text}}
-fancyBarsNormalTextColor=ff{{text}}
-fancyBarsBoldTextColor=ff{{text}}
-hoverBackground=ff{{surface1}}
-selectedBackground=ff{{surface0}}
-selectedBackgroundText=ff{{text}}
-normalBackground=ff{{mantle}}
-alternateBackground=ff{{base}}
-error=ff{{red}}
-warning=ff{{yellow}}
-success=ff{{green}}
-message=ff{{mauve}}
-splitter=ff{{surface0}}
-textColorLink=ff{{rosewater}}
-textColorLinkVisited=ff{{rosewater}}
-backgroundColorDisabled=ff{{surface1}}
+shadowBackground=ff{{crust.hex}}
+text=ff{{text.hex}}
+textDisabled=99{{text.hex}}
+textHighlighted=ff{{text.hex}}
+toolBarItem=ff{{text.hex}}
+toolBarItemDisabled=99{{text.hex}}
+fancyBarsNormalTextColor=ff{{text.hex}}
+fancyBarsBoldTextColor=ff{{text.hex}}
+hoverBackground=ff{{surface1.hex}}
+selectedBackground=ff{{surface0.hex}}
+selectedBackgroundText=ff{{text.hex}}
+normalBackground=ff{{mantle.hex}}
+alternateBackground=ff{{base.hex}}
+error=ff{{red.hex}}
+warning=ff{{yellow.hex}}
+success=ff{{green.hex}}
+message=ff{{mauve.hex}}
+splitter=ff{{surface0.hex}}
+textColorLink=ff{{rosewater.hex}}
+textColorLinkVisited=ff{{rosewater.hex}}
+backgroundColorDisabled=ff{{surface1.hex}}
 
 [Colors]
 ;DS controls theme START
@@ -110,8 +110,8 @@ DSactionAlias=error
 DSactionKeyframe=warning
 DSactionJIT=success
 
-DStableHeaderBackground=ff{{base}}
-DStableHeaderText=ff{{text}}
+DStableHeaderBackground=ff{{base.hex}}
+DStableHeaderText=ff{{text.hex}}
 
 DSdockContainerBackground=shadowBackground
 DSdockContainerSplitter=splitter
