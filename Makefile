@@ -7,10 +7,10 @@ themes := $(flavours:%=themes/catppuccin-%.creatortheme)
 all: $(styles) $(themes)
 
 $(styles): templates/style.xml
-	porthelper '$<' '$(patsubst styles/catppuccin-%.xml,%,$@)' > $@
+	whiskers '$<' '$(patsubst styles/catppuccin-%.xml,%,$@)' > $@
 
 $(themes): templates/theme.creatortheme
-	porthelper '$<' '$(patsubst themes/catppuccin-%.creatortheme,%,$@)' > $@
+	whiskers '$<' '$(patsubst themes/catppuccin-%.creatortheme,%,$@)' > $@
 
 install:
 	mkdir -p ~/.config/QtProject/qtcreator/styles
