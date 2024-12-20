@@ -1,6 +1,7 @@
 [General]
 ThemeName=Catppuccin Frappe
 PreferredStyles=Fusion
+Includes=catppuccin-frappe.figmatokens
 DefaultTextEditorColorScheme=catppuccin-frappe.xml
 
 [Palette]
