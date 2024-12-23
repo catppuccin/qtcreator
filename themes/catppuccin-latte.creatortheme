@@ -1,6 +1,7 @@
 [General]
 ThemeName=Catppuccin Latte
 PreferredStyles=Fusion
+Includes=catppuccin-latte.figmatokens
 DefaultTextEditorColorScheme=catppuccin-latte.xml
 
 [Palette]
