@@ -1,6 +1,7 @@
 [General]
 ThemeName=Catppuccin Mocha
 PreferredStyles=Fusion
+Includes=catppuccin-mocha.figmatokens
 DefaultTextEditorColorScheme=catppuccin-mocha.xml
 
 [Palette]
