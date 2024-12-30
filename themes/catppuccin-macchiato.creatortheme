@@ -1,6 +1,7 @@
 [General]
 ThemeName=Catppuccin Macchiato
 PreferredStyles=Fusion
+Includes=catppuccin-macchiato.figmatokens
 DefaultTextEditorColorScheme=catppuccin-macchiato.xml
 
 [Palette]
