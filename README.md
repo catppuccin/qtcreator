@@ -46,8 +46,8 @@ Based on [Dracula](https://github.com/dracula/qtcreator/) and
         - `~/.config/QtProject/qtcreator/styles`
         - `~/.config/QtProject/qtcreator/themes`
     - Windows
-        - `<Qt install dir>\Tools\QtCreator\share\qtcreator\styles`
-        - `<Qt install dir>\Tools\QtCreator\share\qtcreator\themes`
+        - `%APPDATA%\QtProject\qtcreator\styles`
+        - `%APPDATA%\QtProject\qtcreator\themes`
 2. Copy your preferred flavour from [`styles/`](styles/) into the
 `qtcreator/styles` directory.
 3. Place your preferred flavour from [`themes/`](themes/) into the
