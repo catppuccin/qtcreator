@@ -6,11 +6,11 @@ themes := $(flavours:%=themes/catppuccin-%.creatortheme)
 
 all: $(styles) $(themes)
 
-$(styles): templates/style.xml
-	whiskers '$<' '$(patsubst styles/catppuccin-%.xml,%,$@)' > $@
+$(styles): templates/style.xml.tera
+	whiskers '$<' -f '$(patsubst styles/catppuccin-%.xml,%,$@)' > $@
 
-$(themes): templates/theme.creatortheme
-	whiskers '$<' '$(patsubst themes/catppuccin-%.creatortheme,%,$@)' > $@
+$(themes): templates/theme.creatortheme.tera
+	whiskers '$<' -f '$(patsubst themes/catppuccin-%.creatortheme,%,$@)' > $@
 
 install:
 	mkdir -p ~/.config/QtProject/qtcreator/styles

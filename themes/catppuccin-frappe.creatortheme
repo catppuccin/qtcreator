@@ -1,31 +1,31 @@
 [General]
-ThemeName=Catppuccin Frappe
+ThemeName=Catppuccin Frappé
 PreferredStyles=Fusion
 Includes=catppuccin-frappe.figmatokens
 DefaultTextEditorColorScheme=catppuccin-frappe.xml
 
 [Palette]
 shadowBackground=ff232634
-text=ffC6D0F5
-textDisabled=99C6D0F5
-textHighlighted=ffC6D0F5
-toolBarItem=ffC6D0F5
-toolBarItemDisabled=99C6D0F5
-fancyBarsNormalTextColor=ffC6D0F5
-fancyBarsBoldTextColor=ffC6D0F5
-hoverBackground=ff51576D
+text=ffc6d0f5
+textDisabled=99c6d0f5
+textHighlighted=ffc6d0f5
+toolBarItem=ffc6d0f5
+toolBarItemDisabled=99c6d0f5
+fancyBarsNormalTextColor=ffc6d0f5
+fancyBarsBoldTextColor=ffc6d0f5
+hoverBackground=ff51576d
 selectedBackground=ff414559
-selectedBackgroundText=ffC6D0F5
-normalBackground=ff292C3C
+selectedBackgroundText=ffc6d0f5
+normalBackground=ff292c3c
 alternateBackground=ff303446
-error=ffE78284
-warning=ffE5C890
-success=ffA6D189
-message=ffCA9EE6
+error=ffe78284
+warning=ffe5c890
+success=ffa6d189
+message=ffca9ee6
 splitter=ff414559
-textColorLink=ffF2D5CF
-textColorLinkVisited=ffF2D5CF
-backgroundColorDisabled=ff51576D
+textColorLink=fff2d5cf
+textColorLinkVisited=fff2d5cf
+backgroundColorDisabled=ff51576d
 
 [Colors]
 ;DS controls theme START
@@ -112,7 +112,7 @@ DSactionKeyframe=warning
 DSactionJIT=success
 
 DStableHeaderBackground=ff303446
-DStableHeaderText=ffC6D0F5
+DStableHeaderText=ffc6d0f5
 
 DSdockContainerBackground=shadowBackground
 DSdockContainerSplitter=splitter
@@ -347,6 +347,7 @@ VcsBase_FileUnmerged_TextColor=error
 Bookmarks_TextMarkColor=message
 
 TextEditor_SearchResult_ScrollBarColor=success
+TextEditor_Selection_ScrollBarColor=success
 TextEditor_CurrentLine_ScrollBarColor=message
 
 ProjectExplorer_TaskError_TextMarkColor=error
@@ -392,6 +393,27 @@ PaletteTextDisabled=textDisabled
 PaletteMid=text
 PalettePlaceholderText=textDisabled
 
+TerminalForeground=c6d0f5
+TerminalBackground=303446
+TerminalSelection=51576d
+TerminalFindMatch=f2d5cf
+TerminalAnsi0=626880
+TerminalAnsi1=e78284
+TerminalAnsi2=a6d189
+TerminalAnsi3=e5c890
+TerminalAnsi4=8caaee
+TerminalAnsi5=babbf1
+TerminalAnsi6=81c8be
+TerminalAnsi7=232634
+TerminalAnsi8=6c738c
+TerminalAnsi9=a17d8e
+TerminalAnsi10=879d90
+TerminalAnsi11=a19993
+TerminalAnsi12=7d8db8
+TerminalAnsi13=8f94b9
+TerminalAnsi14=7999a5
+TerminalAnsi15=53586e
+
 [Flags]
 ComboBoxDrawTextShadow=false
 DerivePaletteFromTheme=true
@@ -413,4 +435,3 @@ DarkUserInterface=true
 DetailsWidgetHeaderGradient\1\color=normalBackground
 DetailsWidgetHeaderGradient\1\pos=1
 DetailsWidgetHeaderGradient\size=1
-
